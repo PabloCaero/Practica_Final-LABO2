@@ -1,0 +1,26 @@
+# depslib dependency file v1.0
+1633745785 source:c:\users\pablo ezequiel caero\desktop\practica_final-labo2\clase temporizador\src\temporizador.cpp
+	"Temporizador.h"
+	<iostream>
+
+1633745086 c:\users\pablo ezequiel caero\desktop\practica_final-labo2\clase temporizador\include\temporizador.h
+
+1633746422 source:c:\users\pablo ezequiel caero\desktop\practica_final-labo2\clase temporizador\main.cpp
+	<iostream>
+	<Temporizador.h>
+	"rlutil.h"
+
+1633742435 c:\users\pablo ezequiel caero\desktop\practica_final-labo2\clase temporizador\rlutil.h
+	<iostream>
+	<string>
+	<cstdio>
+	<stdio.h>
+	<string.h>
+	<windows.h>
+	<conio.h>
+	<termios.h>
+	<unistd.h>
+	<sys/ioctl.h>
+	<sys/types.h>
+	<sys/time.h>
+

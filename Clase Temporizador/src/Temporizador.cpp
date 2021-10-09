@@ -1,21 +1,36 @@
 #include "Temporizador.h"
+#include <iostream>
 
-Temporizador::Temporizador(int horas, int minutos, int segundos)
+using namespace std;
+
+Temporizador::Temporizador()
 {
-    if(segundos >= 0 && segundos <= 59 && minutos >= 0 && minutos <= 59 && horas >= 0 )
+    int horas, minutos, segundos;
+    cout << "HORAS   : ";
+    cin >> horas;
+    cout << "MINUTOS : ";
+    cin >> minutos;
+    cout << "SEGUNDOS: ";
+    cin >> segundos;
+    if(horas >= 0 && minutos >=0 && minutos <=59 && segundos >=0 & segundos <=59)
     {
+        _horas = horas;
+        _minutos = minutos;
         _segundos = segundos;
     }
     else
     {
-        _segundos = 0;
-        _minutos = 0;
+        cout << "FORMATO INCORRECTO, " <<endl;
         _horas = 0;
+        _minutos = 0;
+        _segundos = 0;
+        cout << "HORAS   : " << _horas << endl;
+        cout << "MINUTOS : " << _minutos << endl;
+        cout << "SEGUNDOS: " << _segundos << endl;;
     }
 }
 
-
-void Temporizador::TIC()
+void Temporizador::tic()
 {
     _segundos++;
     if(_segundos == 60)
@@ -30,21 +45,54 @@ void Temporizador::TIC()
     }
 }
 
-void Temporizador::Mostrar()
+void Temporizador::mostrar()
 {
-    cout << _horas << ":" << _minutos << ":"<< _segundos << endl;
+    cout << _horas << ":" << _minutos << ":" << _segundos << endl;
 }
 
-int Temporizador::Comparar(Temporizador obj)
+int Temporizador::comparar(Temporizador obj)
 {
-    if(_horas == obj._horas && _minutos == obj._minutos && _segundos == obj._segundos)
+    //COMPARA SI SON IGUALES
+    if(_horas==obj._horas && _minutos==obj._minutos && _segundos == obj._segundos)
     {
         return 0;
     }
 
-    if(_horas > obj._horas && _minutos == obj._minutos && _segundos == obj._segundos)
+    //COMPARA SI EL OBJETO RECIBIDO COMO PARAMETRO ES MENOR AL TEMPORIZADOR
+    if(_horas > obj._horas)
     {
-        return 0;
+        return 1;
     }
 
+    if(_horas == obj._horas && _minutos > obj._minutos)
+    {
+        return 1;
+    }
+
+    if(_horas == obj._horas && _minutos == obj._minutos && _segundos > obj._segundos)
+    {
+        return 1;
+    }
+
+    //COMPARA SI EL OBJETO RECIBIDO COMO PARAMETRO ES MAYOR AL TEMPORIZADOR
+    if(_horas < obj._horas)
+    {
+        return -1;
+    }
+
+    if(_horas == obj._horas && _minutos < obj._minutos)
+    {
+        return -1;
+    }
+
+    if(_horas == obj._horas && _minutos == obj._minutos && _segundos < obj._segundos)
+    {
+        return -1;
+    }
 }
+
+void Temporizador::tac()
+{
+    tic();
+}
+
