@@ -1,0 +1,65 @@
+# depslib dependency file v1.0
+1621294357 source:/home/angel/UTN/LAB2/ProduccionProject/Fecha.cpp
+	<iostream>
+	"Fecha.h"
+
+1621294367 /home/angel/UTN/LAB2/ProduccionProject/Fecha.h
+
+1622054349 source:/home/angel/UTN/LAB2/ProduccionProject/Produccion.cpp
+	<iostream>
+	"Produccion.h"
+
+1622054071 /home/angel/UTN/LAB2/ProduccionProject/Produccion.h
+	"Fecha.h"
+
+1621294357 source:c:\users\pablo ezequiel caero\desktop\practica_final-labo2\reportes defectuosas\produccionproject\fecha.cpp
+	<iostream>
+	"Fecha.h"
+
+1621294367 c:\users\pablo ezequiel caero\desktop\practica_final-labo2\reportes defectuosas\produccionproject\fecha.h
+
+1633897679 source:c:\users\pablo ezequiel caero\desktop\practica_final-labo2\reportes defectuosas\produccionproject\main.cpp
+	"Produccion.h"
+	"Defectuosa.h"
+	<iostream>
+	"rlutil.h"
+	"funciones.h"
+
+1633892063 c:\users\pablo ezequiel caero\desktop\practica_final-labo2\reportes defectuosas\produccionproject\produccion.h
+	"Fecha.h"
+
+1633888449 c:\users\pablo ezequiel caero\desktop\practica_final-labo2\reportes defectuosas\produccionproject\rlutil.h
+	<iostream>
+	<string>
+	<cstdio>
+	<stdio.h>
+	<string.h>
+	<windows.h>
+	<conio.h>
+	<termios.h>
+	<unistd.h>
+	<sys/ioctl.h>
+	<sys/types.h>
+	<sys/time.h>
+
+1633897424 c:\users\pablo ezequiel caero\desktop\practica_final-labo2\reportes defectuosas\produccionproject\funciones.h
+
+1633892063 source:c:\users\pablo ezequiel caero\desktop\practica_final-labo2\reportes defectuosas\produccionproject\produccion.cpp
+	<iostream>
+	"Produccion.h"
+
+1633897604 source:c:\users\pablo ezequiel caero\desktop\practica_final-labo2\reportes defectuosas\produccionproject\funciones.cpp
+	<iostream>
+	<cstring>
+	"Produccion.h"
+	"Defectuosa.h"
+	"rlutil.h"
+	"funciones.h"
+
+1633897424 source:c:\users\pablo ezequiel caero\desktop\practica_final-labo2\reportes defectuosas\produccionproject\src\defectuosa.cpp
+	<iostream>
+	<cstring>
+	"Defectuosa.h"
+
+1633897424 c:\users\pablo ezequiel caero\desktop\practica_final-labo2\reportes defectuosas\produccionproject\include\defectuosa.h
+
