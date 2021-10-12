@@ -1,0 +1,105 @@
+# depslib dependency file v1.0
+1633919198 source:c:\users\pablo ezequiel caero\desktop\practica_final-labo2\lab2 - tp archivos nº 1\parte 1\holamundo\ciudad.cpp
+	"Ciudad.h"
+	"Pais.h"
+	<cstring>
+	<cstdio>
+	<iostream>
+
+1633919197 c:\users\pablo ezequiel caero\desktop\practica_final-labo2\lab2 - tp archivos nº 1\parte 1\holamundo\ciudad.h
+
+1633914797 source:c:\users\pablo ezequiel caero\desktop\practica_final-labo2\lab2 - tp archivos nº 1\parte 1\holamundo\funciones.cpp
+	<iostream>
+	<cstring>
+	"Ciudad.h"
+	"Pais.h"
+
+1633919197 c:\users\pablo ezequiel caero\desktop\practica_final-labo2\lab2 - tp archivos nº 1\parte 1\holamundo\pais.h
+
+1633919197 source:c:\users\pablo ezequiel caero\desktop\practica_final-labo2\lab2 - tp archivos nº 1\parte 1\holamundo\main.cpp
+	"Pais.h"
+	"Ciudad.h"
+	<iostream>
+	"rlutil.h"
+	"funciones.h"
+
+1633908305 c:\users\pablo ezequiel caero\desktop\practica_final-labo2\lab2 - tp archivos nº 1\parte 1\holamundo\rlutil.h
+	<iostream>
+	<string>
+	<cstdio>
+	<stdio.h>
+	<string.h>
+	<windows.h>
+	<conio.h>
+	<termios.h>
+	<unistd.h>
+	<sys/ioctl.h>
+	<sys/types.h>
+	<sys/time.h>
+
+1633919197 c:\users\pablo ezequiel caero\desktop\practica_final-labo2\lab2 - tp archivos nº 1\parte 1\holamundo\funciones.h
+
+1633919197 source:c:\users\pablo ezequiel caero\desktop\practica_final-labo2\lab2 - tp archivos nº 1\parte 1\holamundo\pais.cpp
+	"Pais.h"
+	<cstring>
+	<cstdio>
+	<iostream>
+
+1633983661 source:c:\users\pablo ezequiel caero\desktop\practica_final-labo2\lab2 - tp archivos nº 2\parte 2\holamundo\ciudad.cpp
+	"Ciudad.h"
+	"Pais.h"
+	<cstring>
+	<cstdio>
+	<iostream>
+
+1633984694 c:\users\pablo ezequiel caero\desktop\practica_final-labo2\lab2 - tp archivos nº 2\parte 2\holamundo\ciudad.h
+
+1633985217 c:\users\pablo ezequiel caero\desktop\practica_final-labo2\lab2 - tp archivos nº 2\parte 2\holamundo\pais.h
+
+1633996085 source:c:\users\pablo ezequiel caero\desktop\practica_final-labo2\lab2 - tp archivos nº 2\parte 2\holamundo\funciones.cpp
+	<iostream>
+	<cstring>
+	"Ciudad.h"
+	"Pais.h"
+	"Mundo.h"
+	"rlutil.h"
+
+1633985234 source:c:\users\pablo ezequiel caero\desktop\practica_final-labo2\lab2 - tp archivos nº 2\parte 2\holamundo\pais.cpp
+	"Pais.h"
+	<cstring>
+	<cstdio>
+	<iostream>
+
+1633996294 source:c:\users\pablo ezequiel caero\desktop\practica_final-labo2\lab2 - tp archivos nº 2\parte 2\holamundo\main.cpp
+	"Pais.h"
+	"Ciudad.h"
+	"Mundo.h"
+	<iostream>
+	"rlutil.h"
+	"funciones.h"
+
+1633908305 c:\users\pablo ezequiel caero\desktop\practica_final-labo2\lab2 - tp archivos nº 2\parte 2\holamundo\rlutil.h
+	<iostream>
+	<string>
+	<cstdio>
+	<stdio.h>
+	<string.h>
+	<windows.h>
+	<conio.h>
+	<termios.h>
+	<unistd.h>
+	<sys/ioctl.h>
+	<sys/types.h>
+	<sys/time.h>
+
+1633994289 c:\users\pablo ezequiel caero\desktop\practica_final-labo2\lab2 - tp archivos nº 2\parte 2\holamundo\funciones.h
+
+1633996055 source:c:\users\pablo ezequiel caero\desktop\practica_final-labo2\lab2 - tp archivos nº 2\parte 2\holamundo\mundo.cpp
+	<iostream>
+	<cstring>
+	"Pais.h"
+	"Ciudad.h"
+	"Mundo.h"
+
+1633994289 c:\users\pablo ezequiel caero\desktop\practica_final-labo2\lab2 - tp archivos nº 2\parte 2\holamundo\mundo.h
+
